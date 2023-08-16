@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.Log-up {
+  height: 900px;
+  display: flex;
+  position: relative;
+}
+.Log-up-left {
+  background: rgba(236, 188, 118, 1);
+  width: 50%;
+  height: 100vh;
+}
+.Log-up-left-p {
+  color: #c6553b;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 31px;
+  margin-left: 42px;
+}
+
+.box-img {
+  position: relative;
+  margin-top: 193px;
+  margin-left: 181px;
+}
+.box-img::after {
+  position: absolute;
+  content: "";
+  background-color: rgba(0, 0, 0, 1);
+  width: 740px;
+  height: 1px;
+  left: 0;
+  bottom: 0;
+  z-index: 1100;
+}
+
+.Log-up-left-img {
+  width: 269px;
+  height: 256px;
+}
+
+.Log-up-right-img {
+  width: 450px;
+  height: 450px;
+  align-items: center;
+  margin-top: 144px;
+  margin-right: 61px;
+  margin-left: 198px;
+}
+.log {
+  width: 539px;
+  height: fit-content;
+  border-radius: 40px;
+  background: #fff;
+  box-shadow: 0px 4px 35px 0px rgba(0, 0, 0, 0.08);
+  position: absolute;
+  z-index: 1000000000;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.log-all {
+  gap: 20px;
+
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  padding: 20px 44px 25px 44px;
+}
+.log-welcome {
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.log-sign-in {
+  color: #000;
+  font-family: Poppins;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.log-welcome-p {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+input {
+  width: 451px;
+  height: 57px;
+  border-radius: 9px;
+  border: 1px solid #adadad;
+  background: #fff;
+}
+.log-welcome-user {
+  color: #808080;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.log-welcome-forgot {
+  color: rgba(173, 49, 19, 1);
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.log-welcome-button {
+  width: 451px;
+  height: 54px;
+  border-radius: 10px;
+  background: rgba(228, 135, 0, 1);
+  box-shadow: 0px 4px 19px 0px rgba(119, 147, 65, 0.3);
+  border: none;
+}
+.log-welcome-button:hover {
+  cursor: pointer;
+  background-color: rgb(187, 213, 213);
+}
+.log-welcome-forgot {
+  text-align: end;
+  margin-bottom: 2px;
+}
+.log-welcome-user {
+  padding: 25px;
+}
